@@ -1,0 +1,36 @@
+// Examples of type coercion and typeof operator in JavaScript.
+// Demonstrates some quirks of JavaScript type conversions and the typeof operator.
+// Note: typeof null returns "object" due to a historical bug in JavaScript.
+// Adding different operations to show type coercion effects.
+// '2' + 2 results in "22" (string concatenation).
+// '5' - 2 results in 3 (number subtraction with type conversion).
+// Adding arrays and objects to show their string representations.
+// [] + [] results in "" (empty string).
+// [] + {} results in "[object Object]".
+// {} + [] results in 0.
+// {} + {} results in NaN (Not a Number).   
+//----------------------------------------------------------------------------//    
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log(typeof null); // "object" (special JS bug)
+        console.log("2" + 2);     // "22" (string + number)
+        console.log("5" - 2);     // 3 (auto conversion)
+        console.log([] + []);     // "" (empty string)
+        console.log([] + {});     // "[object Object]"  
+        console.log({} + []);     // 0
+        console.log({} + {});     // NaN
+
+    </script>
+</body>
+
+</html>
