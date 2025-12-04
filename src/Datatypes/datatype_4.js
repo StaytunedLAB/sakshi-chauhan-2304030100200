@@ -1,0 +1,27 @@
+let str = "JavaScript";
+
+console.log(str.length);
+console.log(str.charAt(0));
+console.log(str.includes("Script"));
+console.log(str.slice(0, 4));
+console.log(str.replace("Java", "Type"));
+console.log(str.split("")); 
+console.log(str.indexOf("S"));
+console.log(str.lastIndexOf("a"));
+console.log(str.startsWith("Java"));
+console.log(str.endsWith("Script"));
+console.log(str.trim());
+console.log(str.concat(" is fun!"));
+console.log(str.repeat(2));
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.substr(4, 6));
+console.log(str.search("Script"));
+console.log(str.match(/a/g));
+console.log(str.localeCompare("JavaScript"));
+console.log(String.fromCharCode(65, 66, 67));
+console.log(str.normalize());
+console.log(str.valueOf());
+console.log(str.padStart(15, "*"));
+console.log(str.padEnd(15, "!"));
+console.log(str.raw`Raw string: \n ${str}`);

@@ -1,0 +1,25 @@
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits[0]);
+fruits[3] = "Orange";
+console.log(fruits);
+console.log(fruits.length);
+console.log(fruits.push("Grapes"));
+console.log(fruits);
+console.log(fruits.pop());
+console.log(fruits);
+console.log(fruits.shift());
+console.log(fruits);
+console.log(fruits.unshift("Pineapple"));
+console.log(fruits);
+console.log(fruits.indexOf("Mango"));
+console.log(fruits.slice(1, 3));
+console.log(fruits.splice(1, 1, "Kiwi"));
+console.log(fruits);
+console.log(fruits.sort());
+console.log(fruits.reverse());
+console.log(Array.isArray(fruits));
+console.log(fruits.join(", ")); 
+console.log(fruits.concat(["Papaya", "Peach"]));
+console.log(fruits.toString());
+console.log(fruits.fill("Fruit", 1, 3));
